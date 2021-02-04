@@ -1,10 +1,25 @@
-
+server:
+  port: 8001
 spring:
   application:
-    name: "zdc"
+    name: "zdc-rabbitmq"
+  rabbitmq:
+    host: 10.0.0.100
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
+
+
+
+
 
 
 logging:
   file:
     path: ./logs/
-debug: false
+
+debug: true
+
+
+
