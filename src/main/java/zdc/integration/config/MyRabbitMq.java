@@ -67,10 +67,10 @@ public class MyRabbitMq {
 
 
     //工具类, 可以不用每次发信息的时候都写routerkey和 exchange
-    @Bean("myRabbitTemplate")
+  /*  @Bean("myRabbitTemplate")
     public MyRabbitTemplate  getMyRabbitTemplate(RabbitTemplate rabbitTemplate){
         return new MyRabbitTemplate(rabbitTemplate);
-    }
+    }*/
 
 
 

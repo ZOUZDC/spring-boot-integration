@@ -1,8 +1,8 @@
-server:
-  port: 8001
 spring:
   application:
     name: "zdc-rabbitmq"
+
+
   rabbitmq:
     host: 10.0.0.100
     port: 5672
@@ -12,7 +12,8 @@ spring:
 
 
 
-
+server:
+  port: 8001
 
 
 logging:
@@ -20,6 +21,8 @@ logging:
     path: ./logs/
 
 debug: true
+
+
 
 
 
